@@ -93,4 +93,4 @@ core_interfaces:
     - ip: [ 10.0.0.43/31, 10.0.0.42/31 ]
       nodes: [ s2-spine2, WANCORE ]
       interfaces: [ Ethernet8, Ethernet2 ]
-      include_in_underlay_protocol: true
+      include_in_underlay_protocol: truemake build-site-1 build-site-2 deploy-site-1 deploy-site-2
